@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Livros | Cadastro</title>
+        <link rel="stylesheet" href="css/index.css" />
+    </head>
+    <body>
+
+        <header class="header">
+            <h1>Cadastro</h1>
+        </header>
+
+        <main class="main">
+            <section>
+                <form class="form" id="form">
+                    <input type="text" class="inputs" id="name" placeholder="Nome" autocomplete="off" required />
+                    <input type="email" class="inputs" id="email" placeholder="E-mail" autocomplete="off" required />
+                    <p class="email-warning" id="email-warning"></p>
+                    <input type="password" class="inputs" id="password" placeholder="Senha" autocomplete="off" required />
+                    <input type="submit" class="inputs btn" value="Cadastrar" />
+                </form>
+
+                <p class="signup-signin">Já possui conta? <a href="index.html">Clique aqui</a></p>
+            </section>
+        </main>
+
+        <script src="js/signup.js"></script>
+    </body>
+</html>
