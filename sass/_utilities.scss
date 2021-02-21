@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-family;
+}
+
+a {
+    color: $first-color;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+}
+
+.main {
+    padding: 20px;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs {
+    padding: 15px;
+    border: 2px solid $third-color;
+    outline: none;
+    width: 300px;
+    border-radius: 50px;
+    margin: 5px;
+    font-family: $font-family;
+    font-size: 12pt;
+    transition: all .3s;
+}
+
+.inputs:focus {
+    border: 2px solid $first-color;
+}
+
+.btn {
+    background-color: $first-color;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.btn:focus {
+    border: none;
+}
+
+.btn:hover {
+    background-color: $second-color;
+}
+
+.signup-signin {
+    padding: 20px;
+}
